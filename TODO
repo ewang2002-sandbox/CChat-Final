@@ -1,0 +1,10 @@
+todo:
+make textarea into textbox with pretty css
+edit messages
+bye bye newline (stop newline when sending message in txtbox)
+show errors upon failed message send (empty, too long, spammy)
+Scroll on the dms list in case you have too many
+basically fixed:
+make the refreshes nyoom when >1 new message
+load messages fast on send
+spammer no spamming

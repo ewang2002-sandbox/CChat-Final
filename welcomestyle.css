@@ -1,0 +1,146 @@
+﻿ *{
+	 margin:0;
+	 padding:0;
+ }
+ 
+ body{
+	/*background-image: url(image/Mountain1.png);*/
+	background-size:cover;
+ }
+ 
+ nav{
+	 width:100%;
+	 height:80px;
+	 background-color:rgb(200,200,200);
+ }
+  
+ nav p{
+	 font-family:arial;
+	 color:rgb(50,50,50);
+	 font-size:24px;
+	 /*change height of the menu*/
+	 line-height:80px;
+	 float:left;
+	 padding: 0px 20px
+ }
+ 
+nav ul{
+	float:left;
+}
+
+nav ul li{
+	float:left;
+	list-style:none;
+	/*activates position absolute within the list*/
+	position:relative;
+}
+nav ul li a:hover{
+	color:#fff;
+	
+}
+
+nav ul li a {
+	display:block;
+	font-family:arial;
+	color:rgb(50,50,50);
+	line-height:40px;
+	font-size:16px;
+	padding:20px 14px;
+	text-decoration:none;
+}
+
+nav ul li ul{
+	display:none;
+	position:absolute;
+	background-color:rgb(200,200,200);
+	padding:10px;
+	border-radius:0px 0px 4px 4px; 
+}
+nav ul li:hover ul{
+	display:block;
+}
+nav ul li ul li {
+	width:180px;
+	border-radius:4px;
+}
+nav ul li ul li a{
+	padding:0px 14px;
+}
+/*nav ul li ul li a:hover{
+	background-color:var(--color);
+	color: #fff;
+}*/
+
+.btn-welcome{
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 4;
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #000;
+  background-color: #3ee0c2;
+  border-color: #0eedc4;
+  }
+.btn-welcome:hover {
+  color: #fff;
+  background-color: #4fe5c7;
+}
+.btn-dms{
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 4;
+	text-align: center;
+	white-space: nowrap;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #000;
+	background-color: #3ee0c2;
+	border-color: #0eedc4;
+	}
+  .btn-dms:hover {
+	color: #fff;
+	background-color: #4fe5c7;
+  }
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+/* The side navigation menu */
+.sidebar {
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #f1f1f1;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+	display: block;
+	color: black;
+	padding: 16px;
+	text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+	background-color: #4CAF50;
+	color: white;
+  }
+  
+  /* Links on mouse-over */
+  /*.sidebar a:hover:not(.active) {
+	background-color: #4fe5c7;
+	color: white;
+  }*/

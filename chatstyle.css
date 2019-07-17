@@ -1,0 +1,92 @@
+﻿body
+{
+		margin: 0 auto;
+			max-width: 800px;
+			padding: 0 20px;
+			background-color: #303333;
+			color:#033;
+		}
+
+		.container {
+		margin: 0.5rem 0 1rem 0;
+		border: 1px solid #e0e0e0;
+		border-radius: 2px;
+		overflow: hidden;
+		position: relative;
+				word-wrap:break-word;
+			}
+		.whitetext {
+			color: #fff;
+		}
+
+		.darker {
+			border-color: #7e3;
+			background-color: #6f2;
+		}
+
+		.user {
+			float: left;
+			background-color: #68f;
+			border: 0px solid #79f;
+			
+			margin: 0px 10;
+			margin-right:1em;
+		}
+
+		.whiteBorder {
+			border-color: #fff;
+		}
+
+		.blackBorder {
+			border-color: #000;
+		}
+
+		.container::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		.container img {
+			float: left;
+			max-width: 60px;
+			width: 100%;
+			margin-right: 20px;
+			border-radius: 50%;
+		}
+
+		.container img.right {
+			float: right;
+			margin-left: 20px;
+			margin-right: 0;
+		}
+
+		.time-right {
+			float: right;
+			color: #aaa;
+		}
+
+		.time-left {
+			float: left;
+			color: #999;
+		}
+
+		
+		.btn {
+		  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+		  text-decoration: none;
+		  color: #fff;
+		  background-color: #26a69a;
+		  text-align: center;
+		  letter-spacing: .5px;
+		  -webkit-transition: background-color .2s ease-out;
+		  transition: background-color .2s ease-out;
+		  cursor: pointer;
+		}
+		.btn:hover, .btn-large:hover, .btn-small:hover {
+		  background-color: #2bbbad;
+		}
+		.circle{
+		border-radius:50%;
+		}
+		
